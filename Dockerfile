@@ -22,8 +22,8 @@ RUN apt-get purge -y \
 	wget \
 	unzip && \
 	apt-get autoremove -y && \
-	rm -rf /var/lib/apt/lists/*
-##	rm -rf /eco/Configs
+	rm -rf /var/lib/apt/lists/* && \
+	rm -rf /eco/Configs
 		
 # Back to the working directory for the server
 WORKDIR /eco
