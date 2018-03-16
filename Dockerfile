@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
 	
 COPY start.sh /start
 
-ENV ECO_VERSION=0.7.2.4
+ENV ECO_VERSION=0.7.2.5
 
 RUN mkdir /eco && \
         cd /eco && \
